@@ -56,7 +56,7 @@ const candle = Unitful.cd
 # 体积
 
 const litre = Unitful.L
-@unit cubic_metres "m^3" Tonne 1u"m^3" false true
+@unit cubic_metres "m^3" Cubic_Metres 1u"m^3" true false
 
 
 # 角度
