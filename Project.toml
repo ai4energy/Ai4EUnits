@@ -1,0 +1,10 @@
+name = "Ai4EUnits"
+uuid = "534d5998-32ae-408b-9b94-27c0706925ae"
+authors = ["mingtaoli <mingtao@xjtu.edu.cn>"]
+version = "0.1.0"
+
+[deps]
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[compat]
+Unitful = "1.22.0"
