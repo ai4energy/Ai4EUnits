@@ -56,8 +56,9 @@ const candle = Unitful.cd
 # 体积
 
 const litre = Unitful.L
-@unit cubic_metres "m^3" Cubic_Metres 1u"m^3" true false
 
+@unit cubic_metres "m^3" Cubic_Metres 1u"m^3" false false
+@unit cubic_centimetres "cm^3" Cubic_Centimetres 1centimetre^3 false false
 
 # 角度
 const radian = Unitful.rad
@@ -84,31 +85,28 @@ const litre_per_second = litre / second
 const cubic_metre_per_second = cubic_metres / second
 
 # 速度
-# const metre_per_second = meter / second
+const metre_per_second = metre / second
 
-# # 密度
-# const kilogram_per_cubic_metre = kilogram / cubic_metres
-# const gram_per_cubic_centimetre = gram / cubic_centimetres
+# 密度
+const kilogram_per_cubic_metre = kilogram / cubic_metres
+const gram_per_cubic_centimetre = gram / cubic_centimetres
 
-# # 动力和功率
-# const watt = Unitful.W
-# const kilowatt = Unitful.kW
-# const megawatt = Unitful.MW
-# const horsepower_mechanical = Unitful.hp
+# 动力和功率
+const watt = Unitful.W
+const kilowatt = Unitful.kW
+const megawatt = Unitful.MW
 
-# # 力单位
-# const newton = Unitful.N
-# const kilonewton = Unitful.kN
+# 力单位
+const newton = Unitful.N
+const kilonewton = Unitful.kN
 
-# # 百分比和分数
-# const percent = Unitful.percent
-# const fraction = Unitful.fraction
+# 百分比和分数
+const percent = Unitful.percent
 
+const steradian=Unitful.sr
+const radian=Unitful.rad
 
-# const steradian=Unitful.sr
-# const radian=Unitful.rad
-
-# const dB = Unitful.dB
+const dB = Unitful.dB
 
 
 # 参照https://github.com/invenia/PowerSystemsUnits.jl
